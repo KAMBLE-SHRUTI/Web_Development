@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML From</title>
+</head>
+<body>
+   <form action="data.php">
+      <h1>--STUDENT INFOMARTION--</h1>
+      <!-- text -->
+      <label for="fname">FRIST NAME:- </label>
+      <input  id="fname" type="text"><br><br>
+
+      <label for="mname">MIDDLE NAME:- </label>
+      <input  id="mname" type="text"><br><br>
+
+      <label for="sname">SURNAME:- </label>
+      <input  id="sname" type="text"><br><br>
+
+      <!-- number -->
+      <label for="mobnumber">MOBILE NUMBER:- </label>
+      <input  id="mobnumber"type="number" value="number"><br><br>
+
+      <!-- date -->
+      <label for="dob">DATE OF BIRTH:- </label>
+      <input type="date" name="dob" id="dob"><br><br>
+
+      <!-- textarea -->
+      <label for="add">ADDRESS:- </label>
+      <textarea name="add" id="add" cols="15" rows="5">address</textarea><br><br>
+
+      <!-- radio button-->
+      <label for="gd">GENDER:- </label>
+      <input type="radio" name="gender" id="f_gd" value="female" >
+      <label for="f_gd">Female</label>
+      <input type="radio" name="gender" id="m_gd" value="male">
+      <label for="m_gd">Male</label>
+      <input type="radio" name="gender" id="o_gd" value="other">
+      <label for="o_gd">Other</label><br><br>
+
+      <!-- checkbox -->
+      <label for="">KNOWN LANGUAGES:- </label>
+      <input type="checkbox" name="fav_language" id="py" value="python">
+      <label for="py">PYTHON</label>
+      <input type="checkbox" name="fav_language" id="html" value="HTML5">
+      <label for="html">HTML5</label>
+      <input type="checkbox" name="fav_language" id="js" value="JAVSCRIPT">
+      <label for="js">JAVASCRIPT</label><br><br>
+
+      <!-- select -->
+      <label for="fv_language">FAVOURTIE LANGUAGES:- </label>
+      <select name="fav_language" id="fav_language">
+          <option value="python" >PYTHON</option>
+          <option value="js">javascript</option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+      </select><br><br>
+
+      <!-- button -->
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+   </form> 
+</body>
+</html>

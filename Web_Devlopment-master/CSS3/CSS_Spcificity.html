@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SPECIFICITY</title>
+    <link rel="stylesheet" href="css_specificty.css">
+    <!-- 
+        frist prority-inline style
+     -->
+    <style>
+        
+        #abc{
+            color: blueviolet;
+        }
+        .xyz{
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="abc" style="color: aqua;" class="xyz">BHAGYASHRI BAMANE</p>
+    </div>
+</body>
+</html>
